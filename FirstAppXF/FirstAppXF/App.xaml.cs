@@ -13,8 +13,7 @@ namespace FirstAppXF
 		{
 			InitializeComponent();
 
-
-			MainPage = new MainPage();
+			MainPage = new NavigationPage(new SigninPage());
 		}
 
 		protected override void OnStart ()
